@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <div class="header-content-div">
+            <img id="header-img" src="logo-removebg-preview.png" alt="Logo"><h1 style="padding-right:880px;color: rgb(50, 50, 247);">Mobile Mart</h1>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about-section" class="nav-link">About</a></li>
+                    <li><a href="#services-section" class="nav-link">Services</a></li>
+                    <li><a href="#contact-section" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <h2 style="padding-top: 350px;">Mobile Mart</h2>
+        <p>Sale is open!</p>
+    </section>
+
+    <section id="about-section">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>About Us</h2>
+                <p>Welcome to Mobile Mart, your one-stop online shop for the latest and greatest in mobile technology. At Mobile Mart, we pride ourselves on offering a vast selection of smartphones, accessories, and gadgets at unbeatable prices. Our mission is to provide our customers with a seamless shopping experience, featuring top brands, secure payments, and fast delivery.</p>
+                <p>Whether you're looking for the newest releases, best deals, or expert advice, Mobile Mart is here to help you stay connected and ahead of the curve. Join our community of tech enthusiasts and experience the convenience of shopping for all your mobile needs in one place.</p>
+                <p>Thank you for choosing Mobile Mart, where technology meets convenience.</p>
+            </div>
+            <div class="about-image">
+                <img src="thu.png" alt="Our Company">
+            </div>
+        </div>
+    </section>
+
+    <section id="services-section">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service-card">
+                <div class="service-icon">📱</div>
+                <h3> Mobile Exchange Offer!</h3>
+                <p>At Mobile Mart, we understand the importance of staying updated with the latest mobile technology. That’s why we offer a Mobile Exchange program that allows you to trade in your old smartphone for a new one, making it easier and more affordable to upgrade.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">💳</div>
+                <h3>No Cost EMI</h3>
+                <p>At Mobile Mart, we believe that everyone should have access to the latest mobile technology without financial stress. That's why we offer a No Cost EMI (Equated Monthly Installment) option, making it easier for you to purchase your favorite smartphones and accessories without breaking the bank.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🔍</div>
+                <h3>SEO Services</h3>
+                <p>Welcome to Mobile Mart's SEO Services, where we enhance your online presence to ensure you find exactly what you need in the competitive world of mobile technology. Our SEO strategy is designed to optimize every aspect of your shopping experience, making it easier for you to discover the best smartphones, accessories, and gadgets with just a few clicks.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-section">
+        <h2>Contact Us</h2>
+        <form class="contact-form" action="submit_form.php" method="post">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mobile Mart pvtLtd.com </p>
+    </footer>
+</body>
+</html>
